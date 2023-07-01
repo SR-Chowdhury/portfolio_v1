@@ -18,11 +18,11 @@ const Home = () => {
             <HeroSection />
             <main id="main">
                 <About />
-                <Facts/>
+                {/* <Facts/> */}
                 <Skills/>
                 <Resume/>
                 <Profile/>
-                <Services/>
+                {/* <Services/> */}
                 <Testimonial/>
                 <Contact/>
             </main>

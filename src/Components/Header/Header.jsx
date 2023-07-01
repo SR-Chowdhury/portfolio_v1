@@ -37,7 +37,7 @@ const Header = () => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
-            const sections = ['#hero', '#about', '#resume', '#portfolio', '#services', '#contact'];
+            const sections = ['#hero', '#about', '#skills', '#resume', '#portfolio', '#services', '#testimonials', '#contact'];
 
             sections.forEach((sectionId) => {
                 const sectionElement = document.querySelector(sectionId);
@@ -98,6 +98,13 @@ const Header = () => {
                                 </a>
                             </li>
                             <li>
+                                <a href="#skills"
+                                    onClick={(e) => handleScrollTo(e, '#skills')}
+                                    className={`nav-link scrollto ${activeSection === '#skills' ? 'active' : ''}`}>
+                                    <i className="bx bx-user"></i> <span>Skills</span>
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#resume"
                                     onClick={(e) => handleScrollTo(e, '#resume')}
                                     className={`nav-link scrollto ${activeSection === '#resume' ? 'active' : ''}`}>
@@ -111,11 +118,18 @@ const Header = () => {
                                     <i className="bx bx-book-content"></i> <span>Portfolio</span>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#services"
                                     onClick={(e) => handleScrollTo(e, '#services')}
                                     className={`nav-link scrollto ${activeSection === '#services' ? 'active' : ''}`}>
                                     <i className="bx bx-server"></i> <span>Services</span>
+                                </a>
+                            </li> */}
+                            <li>
+                                <a href="#testimonials"
+                                    onClick={(e) => handleScrollTo(e, '#testimonials')}
+                                    className={`nav-link scrollto ${activeSection === '#testimonials' ? 'active' : ''}`}>
+                                    <i className="bx bx-envelope"></i> <span>Testimonials</span>
                                 </a>
                             </li>
                             <li>

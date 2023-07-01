@@ -13,7 +13,7 @@ const About = () => {
 
                 <div className="row flex align-items-center">
                     <div className="col-lg-4" data-aos="fade-right">
-                        <img src={profileImg} className="img-fluid" alt="" />
+                        <img src="https://i.ibb.co/vjR7y5R/IMG-4349.jpg" className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Full Stack Developer</h3>
