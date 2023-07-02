@@ -11,6 +11,9 @@
 * React Fast Marquee
 * React Icons
 * Context API
+--------------------
+* React Typed
+* React File Saver
 
 > React Component:
 >> - ErrorPage

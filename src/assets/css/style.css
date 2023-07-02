@@ -280,7 +280,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  /* border-bottom: 3px solid #149ddd; */
 }
 
 @media (min-width: 1024px) {
@@ -526,6 +526,33 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+.downloadBtn {
+  font-size: 18px;
+  background: transparent;
+  line-height: 1;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #1f5297;
+  transition: 0.3s;
+}
+
+.downloadBtn:hover {
+  background: #1f5297;
+  color: white;
+}
+
+.heroDownloadBtn {
+  color: white; 
+  font-size: 28px;
+  border-color: rgb(23, 59, 108); 
+}
+
+.heroDownloadBtn:hover {
+  background: rgb(23, 59, 108);
+  border-color: white;
 }
 
 /*--------------------------------------------------------------

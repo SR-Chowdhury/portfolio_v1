@@ -73,11 +73,11 @@ const Header = () => {
                         <img src={profileImg} alt="SR - Profile Image" className="img-fluid rounded-circle" />
                         <h1 className="text-light"><a href="index.html">Shihan Chowdhury</a></h1>
                         <div className="social-links mt-3 text-center">
+                            <a href="https://www.linkedin.com/in/shihan-chowdhury-915583279/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                            <a href="https://github.com/SR-Chowdhury" className="github"><i className="bx bxl-github"></i></a>
                             <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
                             <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                            <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
                             <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-                            <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                         </div>
                     </div>
 

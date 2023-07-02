@@ -1,7 +1,15 @@
 import React from 'react';
+import { saveAs } from 'file-saver';
+import { FaDownload } from "react-icons/fa";
+
 
 const Resume = () => {
-    // TODO: RESUME DOWNLOAD BUTTON
+    
+    const handleDownload = () => {
+        const fileUrl = 'https://drive.google.com/file/d/1Sn001LCcwXvhAGNFaVZG3J8wiiOv7bmd/view';
+        saveAs(fileUrl, 'document.pdf');
+    }
+
     return (
         <section id="resume" className="resume">
             <div className="container">
@@ -75,6 +83,10 @@ const Resume = () => {
                             </ul>
                         </div>
                     </div>
+                </div>
+
+                <div className='text-center mt-3'>
+                    <button onClick={handleDownload} className='downloadBtn'><FaDownload/> Download Resume</button>
                 </div>
 
             </div>
