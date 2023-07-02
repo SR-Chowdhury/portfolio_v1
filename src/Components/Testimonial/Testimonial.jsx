@@ -1,19 +1,39 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import 'keen-slider/keen-slider.min.css';
+import { useKeenSlider } from 'keen-slider/react';
 
 const Testimonial = () => {
+
+    const [sliderRef, instanceRef] = useKeenSlider(
+        {
+          slideChanged() {
+            console.log('slide changed')
+          },
+          loop: true,
+          duration: 50,
+          autoplay: {
+            delay: 50,
+            stopOnHover: true,
+          },
+        },
+        [
+          // add plugins here
+        ]
+      )
+
     return (
         <section id="testimonials" className="testimonials section-bg">
             <div className="container">
 
                 <div className="section-title">
                     <h2>Testimonials</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    {/* <p></p> */}
                 </div>
 
-                <div className="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div ref={sliderRef} className="testimonials-slider swiper keen-slider" data-aos="fade-up" data-aos-delay="100">
                     <div className="swiper-wrapper">
 
-                        <div className="swiper-slide">
+                        <div className="swiper-slide keen-slider__slide">
                             <div className="testimonial-item" data-aos="fade-up">
                                 <p>
                                     <i className="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -26,7 +46,7 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className="swiper-slide">
+                        <div className="swiper-slide keen-slider__slide">
                             <div className="testimonial-item" data-aos="fade-up" data-aos-delay="100">
                                 <p>
                                     <i className="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -39,7 +59,7 @@ const Testimonial = () => {
                             </div>
                         </div>
 
-                        <div className="swiper-slide">
+                        <div className="swiper-slide keen-slider__slide">
                             <div className="testimonial-item" data-aos="fade-up" data-aos-delay="200">
                                 <p>
                                     <i className="bx bxs-quote-alt-left quote-icon-left"></i>

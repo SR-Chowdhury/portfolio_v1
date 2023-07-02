@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub } from "react-icons/fa";
 
 const Profile = () => {
     return (
@@ -7,7 +8,7 @@ const Profile = () => {
 
                 <div className="section-title">
                     <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    {/* <p></p> */}
                 </div>
 
                 <div className="row" data-aos="fade-up">
@@ -26,7 +27,7 @@ const Profile = () => {
                         <div className="portfolio-wrap">
                             <img src="/src/assets/img/portfolio/swmc.png" className="img-fluid" alt=""/>
                                 <div className="portfolio-links">
-                                   <a href="https://swmc.edu.bd/" title="More Details"><i className="bx bx-link"></i></a>
+                                   <a href="https://swmc.edu.bd/" title="Live Link"><i className="bx bx-link"></i></a>
                                 </div>
                         </div>
                     </div>
@@ -35,7 +36,9 @@ const Profile = () => {
                         <div className="portfolio-wrap">
                             <img src="/src/assets/img/portfolio/react_1.png" className="img-fluid" alt=""/>
                                 <div className="portfolio-links">
-                                    <a href="https://shutter-sense.web.app/" title="More Details"><i className="bx bx-link"></i></a>
+                                    <a href="https://shutter-sense.web.app/" title="Live Link"><i className="bx bx-link"></i></a>
+                                    <a href="https://github.com/SR-Chowdhury/shutter-sense-client" className='bx pt-1' title="Github - Client"><FaGithub/></a>
+                                    <a href="https://github.com/SR-Chowdhury/shutter-sense-server" className='bx pt-1' title="Github - Server"><FaGithub/></a>
                                 </div>
                         </div>
                     </div>
@@ -44,7 +47,7 @@ const Profile = () => {
                         <div className="portfolio-wrap">
                             <img src="/src/assets/img/portfolio/swnc.png" className="img-fluid" alt=""/>
                                 <div className="portfolio-links">
-                                    <a href="https://swnc.edu.bd/" title="More Details"><i className="bx bx-link"></i></a>
+                                    <a href="https://swnc.edu.bd/" title="Live Link"><i className="bx bx-link"></i></a>
                                 </div>
                         </div>
                     </div>
@@ -53,7 +56,9 @@ const Profile = () => {
                         <div className="portfolio-wrap">
                             <img src="/src/assets/img/portfolio/react_2.png" className="img-fluid" alt=""/>
                                 <div className="portfolio-links">
-                                    <a href="https://zoo-zoom-toys.web.app/" title="More Details"><i className="bx bx-link"></i></a>
+                                    <a href="https://zoo-zoom-toys.web.app/" title="Live Link"><i className="bx bx-link"></i></a>
+                                    <a href="https://github.com/SR-Chowdhury/zoo-zoom-toys-client" className='bx pt-1' title="Github - Client"><FaGithub/></a>
+                                    <a href="https://github.com/SR-Chowdhury/zoo-zoom-toys-server" className='bx pt-1' title="Github - Server"><FaGithub/></a>
                                 </div>
                         </div>
                     </div>
@@ -62,8 +67,9 @@ const Profile = () => {
                         <div className="portfolio-wrap">
                             <img src="/src/assets/img/portfolio/react_3.png" className="img-fluid" alt=""/>
                                 <div className="portfolio-links">
-                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><i className="bx bx-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                                    <a href="https://asian-food-kings.web.app/" title="Live Link"><i className="bx bx-link"></i></a>
+                                    <a href="https://github.com/SR-Chowdhury/chef-recipe-hunting-client" className='bx pt-1' title="Github - Client"><FaGithub/></a>
+                                    <a href="https://github.com/SR-Chowdhury/chef-recipe-hunting-server" className='bx pt-1' title="Github - Server"><FaGithub/></a>
                                 </div>
                         </div>
                     </div>
@@ -72,7 +78,7 @@ const Profile = () => {
                         <div className="portfolio-wrap">
                             <img src="/src/assets/img/portfolio/jswmc.png" className="img-fluid" alt=""/>
                                 <div className="portfolio-links">
-                                    <a href="https://journal.swmc.edu.bd/" title="More Details"><i className="bx bx-link"></i></a>
+                                    <a href="https://journal.swmc.edu.bd/" title="Live Link"><i className="bx bx-link"></i></a>
                                 </div>
                         </div>
                     </div>

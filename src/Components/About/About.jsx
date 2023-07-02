@@ -32,7 +32,7 @@ const About = () => {
                                     <li><i className="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>Bangladeshi</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
                                     <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>MSc Information Systems</span></li>
-                                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>chowdhuryshihan93@gmil.com</span></li>
+                                    <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>chowdhuryshihan93@gmail.com</span></li>
                                 </ul>
                             </div>
                         </div>
