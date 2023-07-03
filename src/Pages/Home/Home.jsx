@@ -130,7 +130,7 @@ const Home = () => {
 
 
             <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
-                <div className="hero-container" data-aos="fade-in">
+                <div className="hero-container">
                     <h1>Alex Smith</h1>
                     <p>I'm <span className="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
                 </div>
@@ -620,7 +620,7 @@ const Home = () => {
                             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                         </div>
 
-                        <div className="row" data-aos="fade-in">
+                        <div className="row">
 
                             <div className="col-lg-5 d-flex align-items-stretch">
                                 <div className="info">
